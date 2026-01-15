@@ -30,5 +30,12 @@
         app:show_timeout="0"
         app:show_buffering="always"
         app:controller_layout_id="@layout/player_view"/>
+<com.startapp.sdk.ads.banner.Banner
+        android:id="@+id/startapp_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
