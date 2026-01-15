@@ -105,6 +105,13 @@
             android:name=".downloader.ui.DownloadActivity"
             android:configChanges="orientation|screenSize|keyboard|keyboardHidden|screenLayout|smallestScreenSize|uiMode"
             android:exported="false" />
+<meta-data
+    android:name="com.startapp.sdk.APPLICATION_ID"
+    android:value="200185168" />
+
+<meta-data
+    android:name="com.startapp.sdk.RETURN_ADS_ENABLED"
+    android:value="false" />
 
     </application>
 
