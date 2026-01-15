@@ -90,6 +90,7 @@ dependencies {
     implementation(libs.recyclerview)
     implementation(libs.hilt.android)
 implementation("com.startapp:inapp-sdk:5.+")
+
    annotationProcessor(libs.hilt.compiler)
     testImplementation(libs.junit)
     testImplementation(libs.mockito.core)
